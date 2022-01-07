@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import ContactForm from "./ContactForm";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <ContactForm />
       </header>
     </div>
   );

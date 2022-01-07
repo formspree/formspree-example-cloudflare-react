@@ -1,0 +1,45 @@
+.form {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 1rem;
+  text-align: left;
+  max-width: 400px;
+  margin: 2em 0;
+}
+.form input, .form textarea, .form button {
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  background: none;
+  padding: 0.4rem 0.5rem;
+  margin: 0;
+  color: #eee;
+}
+.form textarea {
+  resize: vertical;
+}
+.form button {
+  border: 1px solid #aaa;
+  background-color: transparent;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+  justify-self: start;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: #222;
+}
+.fieldErrors {
+  margin-top: -0.5rem;
+  font-size: small;
+  color: crimson;
+  justify-self: right;
+  grid-column: 1/span 2;
+}
+.formErrors {
+  margin-top: 0.5rem;
+  color: crimson;
+  align-self: center; 
+  grid-column: 2/span 1; 
+}
